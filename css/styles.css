@@ -4,3 +4,28 @@
 /* акцент */
 /* вторичный цвет фона */
 
+:root{
+    --main-text-cl: #757575;
+    --accent-cl: #2196F3;
+    --title-text-cl: #212121;
+    --wight-text-cl: #FFFFFF;
+    --bg-dark-cl: #2F303A;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 1,71;
+letter-spacing: 0.03em;
+color: var(--main-text-cl);
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover,
+.link:focus{
+    color: var(--accent-cl);
+}
