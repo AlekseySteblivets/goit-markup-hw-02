@@ -70,13 +70,7 @@ color: var(--title-text-cl);
 
 /* класс который относится для заголовков h3 на странице студио (имена сотрудников)*/
 .team-name-tittle{
-font-family: Roboto;
 font-weight: 500;
-font-size: 16px;
-line-height: 1.187;
-/* identical to box height */
-text-align: center;
-letter-spacing: 0.03em;
 color: var(--title-text-cl);
 }
 
@@ -90,3 +84,66 @@ letter-spacing: 0.06em;
 color: var(--title-text-cl);
 }
 
+.btn{
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-cl);
+}
+
+/* класс для ссылок по страницам в навигации*/
+.menu-link{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--title-text-cl);
+}
+
+/* класс для описания пунктов членов команды*/
+.team-item {
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: inherit;
+}
+
+.work-card-item{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--main-text-cl);
+}
+
+.dark-bg{
+    background-color: var(--bg-dark-cl);
+}
+
+/* класс убирающий маркировку в списках <ul> */
+.list{
+    list-style: none;
+}
+
+.section-contacts {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--wight-text-cl);
+}
+
+.dark-bg .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.link-connection{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
